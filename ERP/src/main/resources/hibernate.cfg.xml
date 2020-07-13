@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC "-//Hibernate/Hibernate Configuration DTD//EN" "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+ 
+<hibernate-configuration>
+    <session-factory>	
+		<mapping class="com.project.erp.model.MasterTableERP"/>
+		 <mapping class="com.project.erp.model.AdmissionUser1" />
+        <mapping class="com.project.erp.model.AdmissionUserFeAcademics" />
+        <mapping class="com.project.erp.model.AcademicDetailsDse" />
+        <mapping class="com.project.erp.model.AdmissionUserBranchSelection" />
+        <mapping class="com.project.erp.model.PaymentLog" />
+		<mapping class="com.project.erp.model.Admin" />
+		<mapping class="com.project.erp.model.MeritListFe" />
+		<mapping class="com.project.erp.model.Alumni" />		
+		<mapping class="com.project.erp.model.Status" />		
+		<mapping class="com.project.erp.model.DashboardMenu" />	
+		<mapping class="com.project.erp.model.DummyTable" />
+		<mapping class="com.project.erp.model.Branch" />
+    </session-factory>
+         
+</hibernate-configuration>

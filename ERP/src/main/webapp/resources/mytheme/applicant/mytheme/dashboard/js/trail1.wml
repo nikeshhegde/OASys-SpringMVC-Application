@@ -1,0 +1,26 @@
+<wml>
+<card id="one" title="Dictionary Tutorial">
+<p>Vineeth, Ravi and Akhil Welcomes you!!
+</p>
+</card>
+<card id="two" title="Introduction">
+<p>Go to the
+<a href="http://dictionary.cambridge.org">This is a dictionary</a>
+</p>
+<p>
+ Enter the word : <input name="query" size="12"/>
+<do type="search">
+<go href="#three"/>
+</do>
+</p>
+</card>
+<card id="three" >
+<p>
+<a href="http://dictionary.cambridge.org/dictionary/british/$(query)?q=$(query)">Search</a>
+
+</p>
+<do type="back">
+<go href="#one"/>
+</do>
+</card>
+</wml>
